@@ -1,9 +1,8 @@
 import { useState } from "react";
+import DisplayGenInfo from "./DisplayGenInfo";
 
 export default function UserInfo() {
-    //Change this into a usestate have a diffrent of pure objects
-
-    const [person, setPerson] = useState({
+    const [personInfo, setPersonInfo] = useState({
         name: 'John Doe',
         email: 'JohnDoe@email.com',
         phone: '150656434',
@@ -27,7 +26,11 @@ export default function UserInfo() {
 
     return(
         <>
-        
+        <DisplayGenInfo
+            name = {personInfo.name}
+            email = {personInfo.email}
+            phone = {personInfo.phone}
+        />
         </>
     )
 }
