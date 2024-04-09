@@ -1,6 +1,6 @@
 
 
-function DisplayGenInfo({
+export default function DisplayGenInfo({
     name,
     email,
     phone
@@ -19,5 +19,3 @@ function DisplayGenInfo({
         </>
     )
 }
-
-export default DisplayGenInfo
