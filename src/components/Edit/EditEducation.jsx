@@ -1,4 +1,3 @@
-
 export default function EditEducation({personInfo,setPersonInfo})  {
 
 
@@ -39,8 +38,10 @@ export default function EditEducation({personInfo,setPersonInfo})  {
 
     return(
         <>
+
+        <div className="edit-form-container">
             <label>
-                Uni:
+                University
                 <input
                     value ={personInfo.education.university}
                     onChange={handleUniChange}  
@@ -70,6 +71,8 @@ export default function EditEducation({personInfo,setPersonInfo})  {
                     onChange={(e) => handleDateChange(e,'end')}
                 />
             </label>
+        </div>
+            
         </>
     )
 }

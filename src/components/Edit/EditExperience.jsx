@@ -1,8 +1,6 @@
-
-
 export default function EditExperience({personInfo,setPersonInfo}){
 
-    
+
     function handleTitleChange(e){
         setPersonInfo({
             ...personInfo,
@@ -40,6 +38,7 @@ export default function EditExperience({personInfo,setPersonInfo}){
 
     return(
         <>
+        <div className="edit-form-container">
             <label>
                 Title:
                 <input
@@ -71,6 +70,7 @@ export default function EditExperience({personInfo,setPersonInfo}){
                     onChange={(e) => handleDateChange(e,'end')}
                 />
             </label>
+        </div>
         </>
     )
 }

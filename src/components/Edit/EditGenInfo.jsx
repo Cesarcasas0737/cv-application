@@ -1,4 +1,3 @@
-
 export default function EditGenInfo({personInfo,setPersonInfo}){
 
 
@@ -25,6 +24,7 @@ export default function EditGenInfo({personInfo,setPersonInfo}){
 
     return(
         <>
+        <div className="edit-form-container">
             <label>
                 Name:
                 <input
@@ -48,6 +48,8 @@ export default function EditGenInfo({personInfo,setPersonInfo}){
                     onChange={handlePhoneChange}  
                 />
             </label>
+        </div>
+            
         </>
     )
 }
