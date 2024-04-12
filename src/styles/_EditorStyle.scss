@@ -1,0 +1,39 @@
+@import './Variables';
+
+.edit-form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: $gray-50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 150px;
+    max-width: 300px;
+
+    .editCategory{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+
+    label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input{
+        height: 30px;
+    }
+}
+
