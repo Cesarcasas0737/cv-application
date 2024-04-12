@@ -4,11 +4,21 @@ export default function DisplayEducation({
 
     return(
         <>
+
+        <div className="subHeader">
+            <h2>Education</h2>
+        </div>
+
+        <div className="boldNText">
+            <strong>{education.university}</strong>
+            <p>{education.degree}</p>  
+        </div>
         
-        <h2>{education.university}</h2>
-        <p>{education.degree}</p>
-        <p>{education.date.start}</p>
-        <p>{education.date.end}</p>
+
+        <div className="startEndDate">
+            <p>{education.date.start} - {education.date.end}</p>
+        </div>
+        
         </>
     )
 }
