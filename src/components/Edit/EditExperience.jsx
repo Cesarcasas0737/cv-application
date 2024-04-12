@@ -39,6 +39,10 @@ export default function EditExperience({personInfo,setPersonInfo}){
     return(
         <>
         <div className="edit-form-container">
+            <div className="editCategory">
+                <img src="src/assets/briefcase.svg" alt="" />
+                <h2>Experience</h2>
+            </div>
             <label>
                 Title:
                 <input

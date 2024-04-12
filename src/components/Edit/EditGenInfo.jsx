@@ -25,6 +25,10 @@ export default function EditGenInfo({personInfo,setPersonInfo}){
     return(
         <>
         <div className="edit-form-container">
+        <div className="editCategory">
+                <img src="src/assets/account.svg" alt="" />
+                <h2>General Information</h2>
+            </div>
             <label>
                 Name:
                 <input
@@ -44,6 +48,7 @@ export default function EditGenInfo({personInfo,setPersonInfo}){
             <label>
                 Phone number:
                 <input
+                    maxLength={15}
                     value ={personInfo.phone}
                     onChange={handlePhoneChange}  
                 />

@@ -40,8 +40,12 @@ export default function EditEducation({personInfo,setPersonInfo})  {
         <>
 
         <div className="edit-form-container">
+            <div className="editCategory">
+                <img src="src/assets/school.svg" alt="" />
+                <h2>Education</h2>
+            </div>
             <label>
-                University
+                University:
                 <input
                     value ={personInfo.education.university}
                     onChange={handleUniChange}  
