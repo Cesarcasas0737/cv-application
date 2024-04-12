@@ -10,23 +10,23 @@ import EditExperience from "./Edit/EditExperience";
 
 export default function UserInfo() {
     const [personInfo, setPersonInfo] = useState({
-        name: 'John Doe',
-        email: 'JohnDoe@email.com',
-        phone: '150656434',
+        name: 'Jake Ryan',
+        email: 'jake@su.edu',
+        phone: '1234567890',
         education: {
-            university: 'Stanford',
-            degree: 'Bachelor of Science',
+            university: 'Southwestern University',
+            degree: 'Bachelor of Arts in Computer Science',
             date: {
-                start: '2019-08',
-                end: '2023-11'
+                start: 'Aug 2018',
+                end: 'May 2021'
             }
         },
         experience: {
-            title: 'Research person',
-            duties: 'tested stuff on other stuff and made a stuff',
+            title: 'Undergraduate Research Assistant',
+            duties: 'Devloped a Rest API using FastAPI and PostgreSQL',
             date: {
-                start: '2019-08',
-                end: '2023-11'
+                start: 'June 2020',
+                end: 'Present'
             }
         }
     });
