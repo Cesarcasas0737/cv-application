@@ -1,0 +1,40 @@
+@import './Variables';
+.DisplayPanel{
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+    background-color: $gray-50;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+}
+
+.resumeHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+}
+
+.subHeader{
+    h2{
+       border-bottom: 1px solid black; 
+    }
+    
+}
+
+
+.startEndDate{
+    display: flex;
+    flex-direction: row;
+    
+}
+
