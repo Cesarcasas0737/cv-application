@@ -8,15 +8,17 @@ export default function DisplayExperience({
             <h2>Experience</h2>
         </div>
 
-        <div className="boldNText">
-            <strong>{experience.title}</strong>
-            <p>{experience.duties}</p>
-        </div>
         
-
-        <div className="startEndDate">
-            <p>{experience.date.start} - {experience.date.end}</p>
+        <div className="textNDate">
+            <div className="boldNText">
+                <strong>{experience.title}</strong>
+                <p>{experience.duties}</p>
+            </div>
+            <div className="startEndDate">
+                <p>{experience.date.start} - {experience.date.end}</p>
+            </div>
         </div>
+       
         
         </>
     )

@@ -9,15 +9,16 @@ export default function DisplayEducation({
             <h2>Education</h2>
         </div>
 
-        <div className="boldNText">
-            <strong>{education.university}</strong>
-            <p>{education.degree}</p>  
+        <div className="textNDate">
+            <div className="boldNText">
+                <strong>{education.university}</strong>
+                <p>{education.degree}</p>  
+            </div>
+            <div className="startEndDate">
+                <p>{education.date.start} - {education.date.end}</p>
+            </div>   
         </div>
         
-
-        <div className="startEndDate">
-            <p>{education.date.start} - {education.date.end}</p>
-        </div>
         
         </>
     )
