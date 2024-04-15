@@ -1,13 +1,12 @@
-import GenInfo from './components/GenInfo'
-import './App.css'
+import UserInfo from './components/UserInfo'
+import './styles/style.css'
 
 function App() {
  
 
   return (
     <>
-      <GenInfo />
-
+      <UserInfo />
     </>
   )
 }
