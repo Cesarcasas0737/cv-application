@@ -24,9 +24,8 @@ An interactive and dynamic resume-building application developed with React, all
    `npm start`
 
 ## 📷 Screenshots
-![Resume Preview](public/Project Image.png)
 
-
+![Resume Preview](<Project Image.png>)
 
 ## 💬 Contributions
 Feel free to open issues or submit pull requests for improvements!
