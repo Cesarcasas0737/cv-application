@@ -1,6 +1,5 @@
 export default function EditGenInfo({personInfo,setPersonInfo}){
 
-
     function handleNameChange(e){
         setPersonInfo({
             ...personInfo,
